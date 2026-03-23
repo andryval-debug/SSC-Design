@@ -1,0 +1,32 @@
+/**
+ * MCM Design System — Color Tokens
+ * Font family: Mulish
+ * Source: Figma / MCM - DS - Foundation
+ * Generated: 2026-03-18
+ */
+
+:root {
+  /* ─── MCM Brand ─────────────────────────────────── */
+  --mcm-blue:           #133B62;  /* Main color – primary brand */
+  --mcm-blue-light:     #0069AA;  /* Buttons, menus, badges */
+  --mcm-blue-pale:      #B6C7D7;  /* Icons (light contexts) */
+
+  --mcm-green:          #42820D;  /* Buttons, menus, badges */
+  --mcm-green-light:    #7AC043;  /* Icons */
+  --mcm-green-progress: #5E9732;  /* Progress bar */
+
+  --mcm-gray:           #555555;  /* Body text */
+  --mcm-gray-bg:        #EDEDF2;  /* Main background */
+  --mcm-gray-footer:    #333333;  /* Footer background */
+
+  /* ─── Semantic ──────────────────────────────────── */
+  --color-error:        #D32F2F;  /* Error states, destructive actions */
+  --color-warning:      #F57C00;  /* Warnings */
+  --color-caution:      #FFB300;  /* Caution / attention */
+  --color-success:      #388E3C;  /* Success states */
+  --color-info:         #0288D1;  /* Informational */
+
+  /* ─── Base ──────────────────────────────────────── */
+  --color-white:        #FFFFFF;
+  --color-black:        #000000;
+}

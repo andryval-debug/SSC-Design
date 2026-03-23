@@ -1,0 +1,258 @@
+/**
+ * MCM Design System — Typography Tokens
+ * Source: Figma / MCM - DS - Foundation
+ * Font family: Mulish
+ * Generated: 2026-03-18
+ *
+ * Scale:
+ *  01 Headings             — H1–H6, page/section titles
+ *  02 Subheadings          — sub-sections, card titles
+ *  03 Paragraphs (Body)    — long-form content
+ *  04 Captions             — image captions, footnotes
+ *  05 Quotes / Blockquotes — <blockquote>
+ *  06 Overline / Eyebrow   — labels above headings
+ *  07 Small Text           — legal copy, disclaimers
+ *  08 Main Menu Item       — primary navigation
+ *  09 Form Label           — <label>
+ *  10 Form Value           — input field content
+ *  11 Form Button Text     — <button>
+ *  12 Form Support Text    — helper, errors, alerts, notifications
+ *  13 Form Tag Text        — badges, chips, pills
+ */
+
+:root {
+  --font-family-base: 'Mulish', sans-serif;
+
+  /* ─── Font Weights ──────────────────────────────── */
+  --font-weight-light:      300;
+  --font-weight-regular:    400;
+  --font-weight-medium:     500;
+  --font-weight-semibold:   600;
+  --font-weight-bold:       700;
+
+  /* ════════════════════════════════════════════════
+     BRANDING / DISPLAY
+     Figma tokens: Branding/Heading [1-3]/Desktop
+     ════════════════════════════════════════════════ */
+
+  --type-brand-h1-size:    56px;
+  --type-brand-h1-weight:  var(--font-weight-regular);
+  --type-brand-h1-lh:      1.143;
+  --type-brand-h1-ls:      -0.01786em;
+
+  --type-brand-h2-size:    48px;
+  --type-brand-h2-weight:  var(--font-weight-regular);
+  --type-brand-h2-lh:      1.167;
+  --type-brand-h2-ls:      -0.02083em;
+
+  --type-brand-h3-size:    32px;
+  --type-brand-h3-weight:  var(--font-weight-regular);
+  --type-brand-h3-lh:      1.25;
+  --type-brand-h3-ls:      -0.03125em;
+
+  /* ════════════════════════════════════════════════
+     SCALE 01 — HEADINGS
+     Figma token: Heading 1/Desktop
+     Breakpoints: Mobile · Tablet Portrait · Tablet Landscape · Desktop
+     ════════════════════════════════════════════════ */
+
+  /* Desktop */
+  --type-h1-desktop-size:   48px;
+  --type-h1-desktop-weight: var(--font-weight-medium);
+  --type-h1-desktop-lh:     1.167;
+  --type-h1-desktop-ls:     -0.02083em;
+
+  /* Tablet Landscape */
+  --type-h1-tl-size:        40px;
+  --type-h1-tl-weight:      var(--font-weight-medium);
+  --type-h1-tl-lh:          1.2;
+  --type-h1-tl-ls:          -0.02em;
+
+  /* Tablet Portrait */
+  --type-h1-tp-size:        36px;
+  --type-h1-tp-weight:      var(--font-weight-medium);
+  --type-h1-tp-lh:          1.222;
+  --type-h1-tp-ls:          -0.02em;
+
+  /* Mobile */
+  --type-h1-mobile-size:    28px;
+  --type-h1-mobile-weight:  var(--font-weight-medium);
+  --type-h1-mobile-lh:      1.286;
+  --type-h1-mobile-ls:      -0.01786em;
+
+  /* Hero / Cover variant */
+  --type-h1-hero-size:      60px;
+  --type-h1-hero-weight:    var(--font-weight-light);
+  --type-h1-hero-lh:        1.2;
+  --type-h1-hero-ls:        -0.00833em;
+
+  /* ════════════════════════════════════════════════
+     SCALE 02 — SUBHEADINGS
+     HTML: <h4>, <h5>, <h6>
+     Breakpoints: Mobile · Tablet Portrait · Tablet Landscape · Desktop
+     ════════════════════════════════════════════════ */
+
+  /* Desktop */
+  --type-subh1-desktop-size:   32px;
+  --type-subh1-desktop-weight: var(--font-weight-semibold);
+  --type-subh1-desktop-lh:     1.25;
+  --type-subh1-desktop-ls:     -0.03125em;
+
+  --type-subh2-desktop-size:   24px;
+  --type-subh2-desktop-weight: var(--font-weight-semibold);
+  --type-subh2-desktop-lh:     1.333;
+  --type-subh2-desktop-ls:     -0.02em;
+
+  --type-subh3-desktop-size:   20px;
+  --type-subh3-desktop-weight: var(--font-weight-semibold);
+  --type-subh3-desktop-lh:     1.4;
+  --type-subh3-desktop-ls:     -0.01em;
+
+  /* Mobile */
+  --type-subh1-mobile-size:    24px;
+  --type-subh2-mobile-size:    20px;
+  --type-subh3-mobile-size:    16px;
+
+  /* ════════════════════════════════════════════════
+     SCALE 03 — PARAGRAPHS / BODY
+     Breakpoints: Mobile · Tablet Portrait · Tablet Landscape · Desktop
+     ════════════════════════════════════════════════ */
+
+  /* Desktop */
+  --type-body-desktop-size:    16px;
+  --type-body-desktop-weight:  var(--font-weight-regular);
+  --type-body-desktop-lh:      1.75;
+  --type-body-desktop-ls:      0em;
+
+  /* Body Large (desktop) */
+  --type-body-lg-desktop-size: 18px;
+  --type-body-lg-desktop-lh:   1.778;
+
+  /* Mobile */
+  --type-body-mobile-size:     14px;
+  --type-body-mobile-lh:       1.714;
+
+  /* ════════════════════════════════════════════════
+     SCALE 04 — CAPTIONS
+     Breakpoints: Mobile · Tablet Portrait · Tablet Landscape
+     ════════════════════════════════════════════════ */
+
+  --type-caption-desktop-size:  12px;
+  --type-caption-desktop-weight: var(--font-weight-regular);
+  --type-caption-desktop-lh:    1.667;
+
+  --type-caption-mobile-size:   11px;
+  --type-caption-mobile-lh:     1.636;
+
+  /* ════════════════════════════════════════════════
+     SCALE 05 — QUOTES / BLOCKQUOTES
+     HTML: <blockquote>
+     Breakpoints: Mobile · Tablet Portrait · Tablet Landscape
+     ════════════════════════════════════════════════ */
+
+  --type-quote-desktop-size:   20px;
+  --type-quote-desktop-weight: var(--font-weight-light);
+  --type-quote-desktop-lh:     1.6;
+  --type-quote-desktop-ls:     -0.01em;
+
+  --type-quote-mobile-size:    18px;
+  --type-quote-mobile-lh:      1.556;
+
+  /* ════════════════════════════════════════════════
+     SCALE 06 — OVERLINE / EYEBROW TEXT
+     Breakpoints: Mobile · Tablet Portrait · Tablet Landscape
+     ════════════════════════════════════════════════ */
+
+  --type-overline-size:   11px;
+  --type-overline-weight: var(--font-weight-bold);
+  --type-overline-lh:     1.455;
+  --type-overline-ls:     0.08em;   /* uppercase tracking */
+
+  /* ════════════════════════════════════════════════
+     SCALE 07 — SMALL TEXT
+     Breakpoints: Mobile · Tablet Portrait · Tablet Landscape
+     ════════════════════════════════════════════════ */
+
+  --type-small-size:   12px;
+  --type-small-weight: var(--font-weight-regular);
+  --type-small-lh:     1.5;
+
+  /* ════════════════════════════════════════════════
+     SCALE 08 — MAIN MENU ITEM
+     Breakpoints: Mobile · Tablet Portrait · Tablet Landscape
+     ════════════════════════════════════════════════ */
+
+  /* Desktop */
+  --type-menu-desktop-size:   16px;
+  --type-menu-desktop-weight: var(--font-weight-medium);
+  --type-menu-desktop-lh:     1.5;
+
+  /* Tablet Portrait */
+  --type-menu-tp-size:        15px;
+
+  /* Mobile */
+  --type-menu-mobile-size:    14px;
+
+  /* ════════════════════════════════════════════════
+     SCALE 09 — FORM ELEMENT: LABEL
+     Figma token: Label/Default
+     ════════════════════════════════════════════════ */
+
+  --type-label-size:   14px;
+  --type-label-weight: var(--font-weight-medium);
+  --type-label-lh:     1.286;
+
+  /* ════════════════════════════════════════════════
+     SCALE 10 — FORM ELEMENT: VALUE
+     Text inside input fields
+     ════════════════════════════════════════════════ */
+
+  --type-value-size:   14px;
+  --type-value-weight: var(--font-weight-regular);
+  --type-value-lh:     1.286;
+
+  /* ════════════════════════════════════════════════
+     SCALE 11 — FORM ELEMENT: BUTTON TEXT
+     Figma token: Button/Default
+     ════════════════════════════════════════════════ */
+
+  --type-button-size:   14px;
+  --type-button-weight: var(--font-weight-medium);
+  --type-button-lh:     1.286;
+
+  /* ════════════════════════════════════════════════
+     SCALE 12 — FORM ELEMENT: SUPPORT TEXT
+     Helper text · Error messages · Notifications · Alert text
+     ════════════════════════════════════════════════ */
+
+  --type-support-size:   12px;
+  --type-support-weight: var(--font-weight-regular);
+  --type-support-lh:     1.5;
+
+  /* ════════════════════════════════════════════════
+     SCALE 13 — FORM ELEMENT: TAG TEXT
+     Badge text · Chip text · Pill text
+     ════════════════════════════════════════════════ */
+
+  --type-tag-size:   12px;
+  --type-tag-weight: var(--font-weight-semibold);
+  --type-tag-lh:     1;
+}
+
+/* ─── Utility classes ───────────────────────────────── */
+
+.type-brand-h1 { font-family: var(--font-family-base); font-size: var(--type-brand-h1-size); font-weight: var(--type-brand-h1-weight); line-height: var(--type-brand-h1-lh); letter-spacing: var(--type-brand-h1-ls); }
+.type-brand-h2 { font-family: var(--font-family-base); font-size: var(--type-brand-h2-size); font-weight: var(--type-brand-h2-weight); line-height: var(--type-brand-h2-lh); letter-spacing: var(--type-brand-h2-ls); }
+.type-brand-h3 { font-family: var(--font-family-base); font-size: var(--type-brand-h3-size); font-weight: var(--type-brand-h3-weight); line-height: var(--type-brand-h3-lh); letter-spacing: var(--type-brand-h3-ls); }
+
+.type-h1 { font-family: var(--font-family-base); font-size: var(--type-h1-desktop-size); font-weight: var(--type-h1-desktop-weight); line-height: var(--type-h1-desktop-lh); letter-spacing: var(--type-h1-desktop-ls); }
+.type-h2 { font-family: var(--font-family-base); font-size: var(--type-subh1-desktop-size); font-weight: var(--type-subh1-desktop-weight); line-height: var(--type-subh1-desktop-lh); }
+.type-h3 { font-family: var(--font-family-base); font-size: var(--type-subh2-desktop-size); font-weight: var(--type-subh2-desktop-weight); line-height: var(--type-subh2-desktop-lh); }
+.type-body { font-family: var(--font-family-base); font-size: var(--type-body-desktop-size); font-weight: var(--type-body-desktop-weight); line-height: var(--type-body-desktop-lh); }
+.type-caption { font-family: var(--font-family-base); font-size: var(--type-caption-desktop-size); font-weight: var(--type-caption-desktop-weight); line-height: var(--type-caption-desktop-lh); }
+.type-overline { font-family: var(--font-family-base); font-size: var(--type-overline-size); font-weight: var(--type-overline-weight); line-height: var(--type-overline-lh); letter-spacing: var(--type-overline-ls); text-transform: uppercase; }
+.type-small { font-family: var(--font-family-base); font-size: var(--type-small-size); font-weight: var(--type-small-weight); line-height: var(--type-small-lh); }
+.type-label { font-family: var(--font-family-base); font-size: var(--type-label-size); font-weight: var(--type-label-weight); line-height: var(--type-label-lh); }
+.type-button { font-family: var(--font-family-base); font-size: var(--type-button-size); font-weight: var(--type-button-weight); line-height: var(--type-button-lh); }
+.type-support { font-family: var(--font-family-base); font-size: var(--type-support-size); font-weight: var(--type-support-weight); line-height: var(--type-support-lh); }
+.type-tag { font-family: var(--font-family-base); font-size: var(--type-tag-size); font-weight: var(--type-tag-weight); line-height: var(--type-tag-lh); }
